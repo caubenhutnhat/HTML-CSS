@@ -3,6 +3,65 @@
     padding: 0;
     margin: 0;
 }
+.header{
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+.header1 {
+    align-items: center;
+    height: 45px;
+    text-align: center;
+}
+
+.header1 a {
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header1 i {
+    color: orange;
+}
+
+.header1 a:hover {
+    color: orange;
+}
+
+.header2 {
+    width: 80%;
+    margin: auto;
+    /* tự động cách đều 2 bên */
+    display: flex;
+    /* logo ngang với chữ */
+    align-items: center;
+    /* căn chữ giữa */
+    background-color: #FFFFFFCC;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+    /* khoảng cách bên trái */
+    list-style: none;
+    /* bỏ dấu chấm trước chữ */
+}
+
+.menu li a {
+    text-decoration: none;
+    /* bỏ gạch dưới */
+    color: black;
+    /* màu chữ */
+    font-weight: 540;
+    /* chữ in đậm */
+}
+
+.menu li a i {
+    font-size: 8px;
+}
 .sanpham{
     display: grid;
     width: 80%;
@@ -19,6 +78,7 @@
 h2{
     width: 80%;
     margin: auto;
+    margin-top: 50px;
     padding-left: 5px;
 }
 .sanpham1{

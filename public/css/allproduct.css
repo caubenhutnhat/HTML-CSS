@@ -3,10 +3,64 @@
     padding: 0;
     margin: 0;
 }
+.header1 {
+    align-items: center;
+    height: 45px;
+    text-align: center;
+}
 
-.main {
+.header1 a {
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header1 i {
+    color: orange;
+}
+
+.header1 a:hover {
+    color: orange;
+}
+
+.header2 {
     width: 80%;
     margin: auto;
+    /* tự động cách đều 2 bên */
+    display: flex;
+    /* logo ngang với chữ */
+    align-items: center;
+    /* căn chữ giữa */
+    background-color: #FFFFFFCC;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+    /* khoảng cách bên trái */
+    list-style: none;
+    /* bỏ dấu chấm trước chữ */
+}
+
+.menu li a {
+    text-decoration: none;
+    /* bỏ gạch dưới */
+    color: black;
+    /* màu chữ */
+    font-weight: 540;
+    /* chữ in đậm */
+}
+
+.menu li a i {
+    font-size: 8px;
+}
+.main {
+    width: 80%;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
 }
