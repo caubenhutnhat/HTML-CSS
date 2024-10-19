@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.sanpham{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px
+}
+.sanpham1 img{
+
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgb(224, 219, 219);
+}
+h2{
+    width: 80%;
+    margin: auto;
+    padding-left: 5px;
+}
+.sanpham1{
+    margin-top: 20px;
+}
+.sanpham1 span{
+    color: grey;
+}

@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tendanhmuc {
+    flex: 0 0 20%;
+    height: 100vh;
+    border-right: 1px solid gray; /* cot doc */
+}
+.tendanhmuc li {
+    list-style: none;
+    padding: 5px;
+}
+.tendanhmuc li a{
+    text-decoration: none;
+    color: gray;
+  
+}
+.sp {
+    flex: 0 0 80%;
+}
+
+.sp2 {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10px;
+}
+.sp1 h2{
+    padding: 10px;
+    margin-left: 40px;
+}
+.sp1{
+    padding-bottom: 20px;
+}
+.card {
+  padding: 5px;
+}
+
+.card a img {
+    border-radius: 10px;
+    width: 95%;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a h3 {
+    padding: 1px;
+}
+
+.card a span {
+    padding: 1px;
+    color: gray;
+}
+.card a:hover>h3{
+    color: rgb(255, 68, 0);
+}
